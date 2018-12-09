@@ -12,4 +12,4 @@ import os
 cmd_res = os.popen("ls").read()
 print("-->", cmd_res)
 
-os.mkdir("new_dir")
+# os.mkdir("new_dir")
