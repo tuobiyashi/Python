@@ -36,3 +36,13 @@ names.sort()
 names2 = [1, 2, 3, 4]
 names.extend(names2)
 print(names, names2)
+
+#复制列表
+names3 = names.copy()
+print(names)
+print(names3)
+
+# 深浅copy [1,2,[3,4],5]
+# import copy
+# names3 = copy.copy(names)
+# names3 = copy.deepcopy(names)
